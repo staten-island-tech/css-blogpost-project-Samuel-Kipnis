@@ -2,3 +2,22 @@
 * {
     font-family: 'Montserrat';
 }
+
+.background--custom {
+    background: linear-gradient(90deg, #3328F8, #B239F8, #1950E7);
+    background-size: 300% 300%;
+    animation: gradient 7s alternate infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200%;
+    width: 100%;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
