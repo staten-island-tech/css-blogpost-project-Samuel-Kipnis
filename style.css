@@ -7,7 +7,7 @@
     background: linear-gradient(90deg, #3328F8, #B239F8, #1950E7);
     background-size: 300% 300%;
     animation: gradient 7s alternate infinite;
-    position: absolute;
+    background-attachment: fixed;
     top: 0;
     left: 0;
     height: 200%;
